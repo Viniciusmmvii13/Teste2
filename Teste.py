@@ -12,3 +12,11 @@ while x <= 50:
     x+=1
     y-=1
 #xeredelda
+x=1
+y=50
+while x <= 50:
+    yy = int(y/2)
+    print("-" * yy + "*" * x + "-" * yy)
+    x+=2
+    y-=2
+    
